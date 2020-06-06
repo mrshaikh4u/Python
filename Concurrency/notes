@@ -7,3 +7,4 @@ CPU bound -- when program is doing computation for most of its execution time
 -- Premature optimization is the root of all evil (or at least most of it) in programming
 -- For I/O-bound problems, there’s a general rule of thumb in the Python community:
     “Use asyncio when you can, threading when you must
+-- For CPU bound problems.most of the time multiprocessing will help you
