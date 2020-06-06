@@ -1,0 +1,9 @@
+reference URL : https://realpython.com/python-concurrency/#cpu-bound-multiprocessing-version
+-- Threading and asyncio both run on a single processor and therefore only run one at a time
+-- Threading is pre-emptive multitasking and tasks are cooperative multitasking
+-- multiprocessing -- One way to think about it is that each process runs in its own Python interpreter.
+IO bound process -- when program is waiting for IO or network operation for most of its execution time
+CPU bound -- when program is doing computation for most of its execution time
+-- Premature optimization is the root of all evil (or at least most of it) in programming
+-- For I/O-bound problems, there’s a general rule of thumb in the Python community:
+    “Use asyncio when you can, threading when you must
